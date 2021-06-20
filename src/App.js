@@ -16,12 +16,33 @@ import Inline from './components/Inline';
 import './components/appStyle.css'
 import styles from './components/appStyles.module.css'
 import Form from './components/Form';
+import LifecycleA from './components/LifecycleA';
+import RefsDemo from './components/RefsDemo';
+
 
 function App() {
   return (
     <div className="App">
+      {/* ============================== */}
+      {/* ============================== */}
+      {/* Advance Topics in React's Docs */}
+      {/* ============================== */}
+      {/* ============================== */}
+
+
+
+      <RefsDemo />
+
+      {/* ============================= */}
+      {/* ============================= */}
+      {/* // Basic topics in React docs */}
+      {/* ============================= */}
+      {/* ============================= */}
+
       
-      <Form />
+      {/* <LifecycleA /> */}
+      
+      {/* <Form /> */}
 
       {/* <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1> */}
